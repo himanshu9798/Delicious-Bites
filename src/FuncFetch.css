@@ -1,0 +1,52 @@
+/* FuncFetch.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 2px dashed black;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+  
+  .card h1 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .card h2 {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100px;
+    margin: 10px 0;
+    height: 100px;
+  }
+  
+  .card .price {
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .card .rating {
+    text-align: center;
+    margin: 5px 0;
+  }
+  
